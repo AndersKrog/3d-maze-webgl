@@ -129,6 +129,10 @@ camera = createCamera() ;
 player = new Player();
 
 level = new Level();
+	
+camera.setPosition(0.25 * level.grid_width * TILE_SIZE, 0, 0.5 * level.grid_height*TILE_SIZE);
+camera.pan(Math.PI);
+
 
 }
 
